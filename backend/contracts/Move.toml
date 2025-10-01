@@ -1,0 +1,16 @@
+[package]
+name = "Micro-CertificationNFTPlatform–Certifysmallcoursemodules."
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x19004ee0356664f98fe6a8add771a2747a2b38328a70af222faccb3fdfe226ad"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

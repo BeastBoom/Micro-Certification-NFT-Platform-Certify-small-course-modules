@@ -1,0 +1,47 @@
+{
+  "name": "micro-certification-nft-platform",
+  "version": "1.0.0",
+  "description": "A full-stack NFT certification platform built on Aptos blockchain for micro-course certifications",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "move:compile": "cd backend/contracts && aptos move compile",
+    "move:test": "cd backend/contracts && aptos move test",
+    "move:publish": "cd backend/contracts && aptos move publish"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.28.0",
+    "@aptos-labs/wallet-adapter-react": "^3.7.2",
+    "@heroicons/react": "^2.2.0",
+    "@tanstack/react-query": "^5.0.0",
+    "aptos": "^1.21.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.15.0",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
